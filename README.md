@@ -1,12 +1,51 @@
-# React + Vite
+# 🍔 Food Restro - React + Vite App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a complete and responsive **Food Ordering Web Application** built using **React** with **Vite** for fast development and builds. The app allows users to browse food items, filter by categories, add items to cart, and manage orders with a clean, modern UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🧩 **Modular React Components** (Card, Nav, etc.)
+- 🗂️ **Category-based Filtering** (e.g. Pizza, Biryani, Rolls)
+- 🛒 **Add to Cart** and **Cart Management** with Redux
+- ⚛️ **React Context + Redux Toolkit** for State Management
+- 🧭 **Navigation Bar** with Live Cart Count
+- 🎯 **Reusable Card Components** for Food Listings
+- 🎨 **Responsive UI** optimized for all screen sizes
+- ⚡ Built with **Vite** for faster dev experience
+- ✅ **ESLint** configuration for clean code
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏗️ Project Structure
+.
+├── public/
+│ └── vite.svg
+├── src/
+│ ├── assets/ # Food item images
+│ ├── components/ # UI Components (Card, Nav, etc.)
+│ ├── context/ # Context API for global state
+│ ├── pages/ # Pages (e.g. Home.jsx)
+│ ├── redux/ # Redux Toolkit Store & Slice
+│ ├── App.jsx
+│ ├── main.jsx
+│ ├── Category.jsx
+│ ├── food.js # Food item data
+│ └── index.css # Global styles
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 
-## Expanding the ESLint configuration
+## 🛠️ Getting Started
+>Prerequisites
+- Node.js >= 14
+- npm >= 6
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+>Installation
+```bash
+git clone https://github.com/yashbansal200005/Food-Restro-React.git
+cd Food-Restro-React
+npm install
+npm run dev
+
+👨‍💻 Author
+Yash Bansal
