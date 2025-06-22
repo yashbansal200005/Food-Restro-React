@@ -1,51 +1,59 @@
 # 🍔 Food Restro - React + Vite App
 
-This is a complete and responsive **Food Ordering Web Application** built using **React** with **Vite** for fast development and builds. The app allows users to browse food items, filter by categories, add items to cart, and manage orders with a clean, modern UI.
+**Food Restro** is a complete and responsive **Food Ordering Web Application** built with **React**, **Redux Toolkit**, and **Tailwind CSS**, powered by **Vite** for lightning-fast development. Users can browse food items, filter them by categories, add items to the cart, and manage their orders with a clean and modern UI.
+
+🔗 **Live Demo:** [https://food-restro-react.vercel.app/](https://food-restro-react.vercel.app/)
+
+---
 
 ## 🚀 Features
-- 🧩 **Modular React Components** (Card, Nav, etc.)
-- 🗂️ **Category-based Filtering** (e.g. Pizza, Biryani, Rolls)
-- 🛒 **Add to Cart** and **Cart Management** with Redux
-- ⚛️ **React Context + Redux Toolkit** for State Management
-- 🧭 **Navigation Bar** with Live Cart Count
-- 🎯 **Reusable Card Components** for Food Listings
-- 🎨 **Responsive UI** optimized for all screen sizes
-- ⚡ Built with **Vite** for faster dev experience
-- ✅ **ESLint** configuration for clean code
 
-## 🏗️ Project Structure
-.
-├── public/
-│ └── vite.svg
-├── src/
-│ ├── assets/ # Food item images
-│ ├── components/ # UI Components (Card, Nav, etc.)
-│ ├── context/ # Context API for global state
-│ ├── pages/ # Pages (e.g. Home.jsx)
-│ ├── redux/ # Redux Toolkit Store & Slice
-│ ├── App.jsx
-│ ├── main.jsx
-│ ├── Category.jsx
-│ ├── food.js # Food item data
-│ └── index.css # Global styles
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+- 🧩 **Modular React Components** – Card, Nav, Category, etc.  
+- 🗂️ **Category Filtering** – Browse foods by categories like Pizza, Biryani, Rolls  
+- 🛒 **Add to Cart & Cart Management** – Fully interactive cart using Redux  
+- ⚛️ **React Context + Redux Toolkit** – Combined for robust state management  
+- 🧭 **Navigation Bar** – With real-time cart item count  
+- 🎯 **Reusable UI Components** – Cards, buttons, and layout components  
+- 📱 **Responsive Design** – Optimized for mobile, tablet, and desktop  
+- ⚡ **Built with Vite** – Super fast dev server and optimized builds  
+- ✅ **ESLint** configured – Clean, consistent code practices  
+
+---
+
+## 🛠️ Technologies Used
+
+- **React** – Frontend library  
+- **Vite** – Fast build tool for React  
+- **Redux Toolkit** – Simplified Redux state management  
+- **React Context API** – Lightweight global state for audio and user interaction  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **ESLint** – For code quality and formatting  
+
+---
+
+
+---
 
 ## 🛠️ Getting Started
->Prerequisites
-- Node.js >= 14
-- npm >= 6
 
->Installation
+### ✅ Prerequisites
+
+- Node.js **v14 or higher**
+- npm **v6 or higher**
+
+### 📦 Installation & Run
+
 ```bash
+# Clone the repository
 git clone https://github.com/yashbansal200005/Food-Restro-React.git
+
+# Navigate to the project directory
 cd Food-Restro-React
+
+# Install dependencies
 npm install
+
+# Start the development server
 npm run dev
 
-👨‍💻 Author
-Yash Bansal
+
